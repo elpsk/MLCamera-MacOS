@@ -1,0 +1,354 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2D1ABD172B2C5F0E00BCC09A /* MLCameraMacApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D1ABD162B2C5F0E00BCC09A /* MLCameraMacApp.swift */; };
+		2D1ABD192B2C5F0E00BCC09A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D1ABD182B2C5F0E00BCC09A /* ContentView.swift */; };
+		2D1ABD1B2B2C5F0F00BCC09A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2D1ABD1A2B2C5F0F00BCC09A /* Assets.xcassets */; };
+		2D1ABD1E2B2C5F0F00BCC09A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2D1ABD1D2B2C5F0F00BCC09A /* Preview Assets.xcassets */; };
+		2D1ABD2A2B2C5FA100BCC09A /* MyImageClassifier.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 2D1ABD292B2C5F8800BCC09A /* MyImageClassifier.mlmodel */; };
+		2D1ABD302B2C94FE00BCC09A /* LegoIdentifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D1ABD2F2B2C94FE00BCC09A /* LegoIdentifier.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2D1ABD132B2C5F0E00BCC09A /* MLCameraMac.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MLCameraMac.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2D1ABD162B2C5F0E00BCC09A /* MLCameraMacApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MLCameraMacApp.swift; sourceTree = "<group>"; };
+		2D1ABD182B2C5F0E00BCC09A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		2D1ABD1A2B2C5F0F00BCC09A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2D1ABD1D2B2C5F0F00BCC09A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		2D1ABD1F2B2C5F0F00BCC09A /* MLCameraMac.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MLCameraMac.entitlements; sourceTree = "<group>"; };
+		2D1ABD292B2C5F8800BCC09A /* MyImageClassifier.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = MyImageClassifier.mlmodel; sourceTree = "<group>"; };
+		2D1ABD2F2B2C94FE00BCC09A /* LegoIdentifier.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LegoIdentifier.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2D1ABD102B2C5F0E00BCC09A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2D1ABD0A2B2C5F0E00BCC09A = {
+			isa = PBXGroup;
+			children = (
+				2D1ABD152B2C5F0E00BCC09A /* MLCameraMac */,
+				2D1ABD142B2C5F0E00BCC09A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2D1ABD142B2C5F0E00BCC09A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2D1ABD132B2C5F0E00BCC09A /* MLCameraMac.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2D1ABD152B2C5F0E00BCC09A /* MLCameraMac */ = {
+			isa = PBXGroup;
+			children = (
+				2D1ABD162B2C5F0E00BCC09A /* MLCameraMacApp.swift */,
+				2D1ABD182B2C5F0E00BCC09A /* ContentView.swift */,
+				2D1ABD2F2B2C94FE00BCC09A /* LegoIdentifier.swift */,
+				2D1ABD1A2B2C5F0F00BCC09A /* Assets.xcassets */,
+				2D1ABD1F2B2C5F0F00BCC09A /* MLCameraMac.entitlements */,
+				2D1ABD292B2C5F8800BCC09A /* MyImageClassifier.mlmodel */,
+				2D1ABD1C2B2C5F0F00BCC09A /* Preview Content */,
+			);
+			path = MLCameraMac;
+			sourceTree = "<group>";
+		};
+		2D1ABD1C2B2C5F0F00BCC09A /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				2D1ABD1D2B2C5F0F00BCC09A /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2D1ABD122B2C5F0E00BCC09A /* MLCameraMac */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2D1ABD222B2C5F0F00BCC09A /* Build configuration list for PBXNativeTarget "MLCameraMac" */;
+			buildPhases = (
+				2D1ABD0F2B2C5F0E00BCC09A /* Sources */,
+				2D1ABD102B2C5F0E00BCC09A /* Frameworks */,
+				2D1ABD112B2C5F0E00BCC09A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MLCameraMac;
+			productName = MLCameraMac;
+			productReference = 2D1ABD132B2C5F0E00BCC09A /* MLCameraMac.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2D1ABD0B2B2C5F0E00BCC09A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					2D1ABD122B2C5F0E00BCC09A = {
+						CreatedOnToolsVersion = 15.0;
+					};
+				};
+			};
+			buildConfigurationList = 2D1ABD0E2B2C5F0E00BCC09A /* Build configuration list for PBXProject "MLCameraMac" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2D1ABD0A2B2C5F0E00BCC09A;
+			productRefGroup = 2D1ABD142B2C5F0E00BCC09A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2D1ABD122B2C5F0E00BCC09A /* MLCameraMac */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2D1ABD112B2C5F0E00BCC09A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D1ABD1E2B2C5F0F00BCC09A /* Preview Assets.xcassets in Resources */,
+				2D1ABD1B2B2C5F0F00BCC09A /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2D1ABD0F2B2C5F0E00BCC09A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D1ABD192B2C5F0E00BCC09A /* ContentView.swift in Sources */,
+				2D1ABD172B2C5F0E00BCC09A /* MLCameraMacApp.swift in Sources */,
+				2D1ABD302B2C94FE00BCC09A /* LegoIdentifier.swift in Sources */,
+				2D1ABD2A2B2C5FA100BCC09A /* MyImageClassifier.mlmodel in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		2D1ABD202B2C5F0F00BCC09A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2D1ABD212B2C5F0F00BCC09A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		2D1ABD232B2C5F0F00BCC09A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = MLCameraMac/MLCameraMac.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"MLCameraMac/Preview Content\"";
+				DEVELOPMENT_TEAM = KUQJPA4LB9;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.pirelli.MLCameraMac;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		2D1ABD242B2C5F0F00BCC09A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = MLCameraMac/MLCameraMac.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"MLCameraMac/Preview Content\"";
+				DEVELOPMENT_TEAM = KUQJPA4LB9;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.pirelli.MLCameraMac;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D1ABD0E2B2C5F0E00BCC09A /* Build configuration list for PBXProject "MLCameraMac" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2D1ABD202B2C5F0F00BCC09A /* Debug */,
+				2D1ABD212B2C5F0F00BCC09A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D1ABD222B2C5F0F00BCC09A /* Build configuration list for PBXNativeTarget "MLCameraMac" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2D1ABD232B2C5F0F00BCC09A /* Debug */,
+				2D1ABD242B2C5F0F00BCC09A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2D1ABD0B2B2C5F0E00BCC09A /* Project object */;
+}
